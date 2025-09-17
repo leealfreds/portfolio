@@ -416,3 +416,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+.eslintcache
+
+Server/node_modules
+Server/config.js
