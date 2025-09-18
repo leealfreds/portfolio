@@ -4,6 +4,6 @@ body {
   font-family: "Montserrat", sans-serif serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.989), rgb(15, 15, 15));
-   --bs-body-bg: #000;
+  background-color: transparent !important;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.989), rgb(70, 65, 65)) !important;
 }

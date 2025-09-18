@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "./Particle";
 import { Parallax } from 'react-scroll-parallax';
 import myImg from "../Assets/a.jpg";
 import Tilt from "react-parallax-tilt";
@@ -11,7 +10,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home() {
   return (
     <Container fluid className="home-section" id="home">
-      <Particle />
       <Parallax speed={-20}>
         <Container className="home-content">
           <Row>

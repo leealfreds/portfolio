@@ -18,12 +18,11 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 function App() {
   const [load, updateLoad] = useState(true);
-
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 

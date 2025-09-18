@@ -25,7 +25,7 @@ function ProjectCards(props) {
         <Card.Subtitle style={{ textAlign: "center", fontSize: "0.9rem", paddingBottom: "1rem" }}>
           {props.date}
         </Card.Subtitle>
-        <Card.Text style={{ textAlign: "left" }}>
+        <div className="project-card-text">
           {Array.isArray(props.description) ? (
             <ul style={{ paddingLeft: "1rem", marginBottom: 0 }}>
               {props.description.map((point, index) => (
@@ -35,7 +35,7 @@ function ProjectCards(props) {
           ) : (
             props.description
           )}
-        </Card.Text>
+        </div>
       </Card.Body>
     </Card>
   );

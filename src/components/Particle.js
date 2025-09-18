@@ -1,55 +1,65 @@
-import React from "react";
-import Particles from "react-tsparticles";
+// import React from "react";
+// import Particles from '@tsparticles/react';
+// function Particle() {
+//   return (
+//     <Particles
+//       id="tsparticles"
+//       init={particlesInit}
+//       loaded={particlesLoaded}
+//       options={{
+//         fullScreen: {
+//           enable: true,
+//           zIndex: 0, // Keep particles in background
+//         },
+//         particles: {
+//           number: {
+//             value: 1000,
+//             density: {
+//               enable: true,
+//               value_area: 500,
+//             },
+//           },
+//           links: {
+//             enable: false,
+//             opacity: 0.1,
+//           },
+//           move: {
+//             direction: "right",
+//             speed: 0.05,
+//             enable: true,
+//           },
+//           size: {
+//             value: 1,
+//           },
+//           opacity: {
+//             value: 1.0,
+//             animation: {
+//               enable: true,
+//               speed: 1,
+//               minimumValue: 0.05,
+//             },
+//           },
+//           color: {
+//             value: "#ff0000ff",
+//           },
+//         },
+//         interactivity: {
+//           events: {
+//             onClick: {
+//               enable: true,
+//               mode: "push",
+//             },
+//           },
+//           modes: {
+//             push: {
+//               quantity: 1,
+//             },
+//           },
+//         },
+//         detectRetina: true,
+//       }}
+//     />
+//   );
+// }
 
-function Particle() {
-  return (
-    <Particles
-      id="tsparticles"
-      params={{
-        particles: {
-          number: {
-            value: 160,
-            density: {
-              enable: true,
-              value_area: 500,
-            },
-          },
-          line_linked: {
-            enable: false,
-            opacity: 0.1,
-          },
-          move: {
-            direction: "right",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
-            },
-          },
-        },
-        interactivity: {
-          events: {
-            onclick: {
-              enable: true,
-              mode: "push",
-            },
-          },
-          modes: {
-            push: {
-              particles_nb: 1,
-            },
-          },
-        },
-        retina_detect: true,
-      }}
-    />
-  );
-}
-
-export default Particle;
+// export default Particle;

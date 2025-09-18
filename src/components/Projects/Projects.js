@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import { Parallax } from "react-scroll-parallax";
 import Capgemini from "../../Assets/Projects/capg.png"
 import Itron from "../../Assets/Projects/Itr.png"
@@ -9,7 +8,6 @@ import Clemson from "../../Assets/Projects/Clempaw.png"
 function Projects() {
   return (
     <Container fluid className="project-section" id="projects">
-      <Particle />
       <Parallax speed={-20}>
         <Container>
           <h1 className="project-heading">
