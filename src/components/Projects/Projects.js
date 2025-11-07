@@ -34,7 +34,7 @@ function Projects() {
                 subtitle="Fullstack Developer Co-op"
                 date="Jan 23 – Aug 24"
                 description={[
-                  <>Collaborated with senior developers and manufacturing teams to maintain a web application for tracking 500,000+ electric meters across multiple plants.</>, 
+                  <>Collaborated with senior developers and manufacturing teams to maintain a web application for tracking 50,000+ electric meters across multiple plants.</>, 
                   <>Developed multiple reporting services using <strong>ASP.NET, C#, SQL, and Mudblazor </strong> to monitor underperforming meters, significantly improving test engineer efficiency.</>, 
                   <>Restructured company codebase to address duplication of thousands of meters caused by duplicate serial numbers from multiple sites.</>]}
               />

@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
-  margin: 0;
-  font-family: "Montserrat", sans-serif serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: transparent !important;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.989), rgb(70, 65, 65)) !important;
+    margin: 0;
+    font-family: "Montserrat", sans-serif serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #393E46 !important;
+    overflow-y: auto;
+  
+  /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.body::-webkit-scrollbar 
+{
+     display: none;
 }
